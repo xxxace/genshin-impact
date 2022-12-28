@@ -16,6 +16,7 @@
 .header-left {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .music {
@@ -45,6 +46,8 @@
 .header-menu {
     display: flex;
     position: relative;
+    height: 100%;
+    align-items: center;
 }
 
 .header-menu-item {
@@ -61,7 +64,7 @@
 .header-menu-indicator {
     display: inline-block;
     position: absolute;
-    top: -22px;
+    top: 0;
     left: 0;
     width: 40px;
     height: 5px;
@@ -87,6 +90,8 @@
 }
 
 .header-right-item img {
+    width: 28px;
+    height: 28px;
     margin-left: 18px;
     opacity: 0.6;
 }
