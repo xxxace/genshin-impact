@@ -1,0 +1,78 @@
+.footer {
+    background-color: #111;
+    font-size: 14px
+}
+
+.footer-share {
+    display: flex;
+    height: 52px;
+    border-bottom: 2px solid #1a1a1a;
+    color: #707070;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-share i {
+    margin-right: 30px;
+}
+
+.footer-share i:last-child {
+    margin: 0;
+}
+
+.footer-main {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 1280px;
+    color: #aaa;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.footer-links a {
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+.footer-links a:first-child {
+    padding-left: 0;
+}
+
+.footer-links a:last-child {
+    border: none
+}
+
+.footer-info {
+    line-height: 2;
+}
+
+.footer-icon {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+
+.corp-logo {
+    width: 119px;
+}
+
+.divider {
+    width: 1px;
+    height: 28px;
+    margin: 0 25px;
+    background-color: #666;
+}
+
+.game-logo {
+    width: 110px;
+    margin-right: 60px;
+}

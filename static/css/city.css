@@ -1,0 +1,109 @@
+.city-item {
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+}
+
+.city-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.city-item:hover .city-img {
+    transform: scale(1.1);
+}
+
+.city-hero {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    opacity: 0;
+    transition: .4s;
+    transform: translateX(40px);
+}
+
+.city-item:hover .city-hero {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.city-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 7px solid #fff;
+    opacity: 0;
+}
+
+.city-item:hover .city-border {
+    opacity: 1;
+}
+
+.city-title {}
+
+.city-title h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.city-modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+
+.city-item:hover .city-modal {
+    opacity: 0.2;
+}
+
+.city-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city-decoration {
+    position: absolute;
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -64%);
+    opacity: 0;
+}
+
+.city-item:hover .city-decoration {
+    opacity: 1;
+}
+
+.city-wait {
+    height: 260px;
+    background: url(../assets/wait.jpg) center;
+    background-size: cover;
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(200, 200, 200, 0.5);
+    overflow: hidden;
+}
+
+.city-wait h2 {
+    font-size: inherit;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
