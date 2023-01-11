@@ -70,7 +70,7 @@
     width: 40px;
     height: 5px;
     background-color: #69e0ff;
-    transition: transform .3s linear;
+    transition: all .2s ease-in-out;
 }
 
 .header-right {
