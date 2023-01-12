@@ -20,8 +20,9 @@
 </head>
 
 <body>
-    <div class="hidden">
-        <div class="header">
+    <div id="app" class="hidden">
+        <!-- 导航栏 -->
+        <header class="header">
             <div class="header-left">
                 <div id="bgmBtn" class="music off"></div>
                 <a class="logo" href="">
@@ -46,7 +47,9 @@
                     <img src="./static/assets/user.png" alt="登录">
                 </a>
             </div>
-        </div>
+        </header>
+        <!-- 导航栏结束 -->
+        <!-- banner -->
         <div class="banner">
             <video muted autoplay loop src="./static/assets/video.mp4"></video>
             <img class="cadpa" src="./static/assets/badge.png" alt="适龄提示：12岁以上">
@@ -91,12 +94,13 @@
                 </div>
             </div>
         </div>
+        <!-- banner结束 -->
+        <!-- 新闻资讯 -->
         <div class="news">
             <h2 class="ace-title"><span class="title-text">新闻资讯</span></h2>
             <div class="news-body">
-
                 <div class="news-carousels">
-                    <div id="newsCarousel" class="carousel carousel-dark slide">
+                    <div id="newsCarousel" class="carousel slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" class="active"
                                 aria-label="Slide 1" aria-current="true"></button>
@@ -161,6 +165,8 @@
                 </div>
             </div>
         </div>
+        <!-- 新闻资讯结束 -->
+        <!-- 城市 -->
         <div class="city">
             <div class="city-item">
                 <img class="city-img" src="./static/assets/city1.jpg" alt="蒙德城">
@@ -199,6 +205,8 @@
                 <h2>敬请期待</h2>
             </div>
         </div>
+        <!-- 城市结束 -->
+        <!-- 底部 -->
         <footer class="footer">
             <div class="footer-share">
                 <i class="iconfont icon-weibo"></i>
@@ -256,7 +264,6 @@
                         <div class="footer-icon">
                             <a href="">
                                 <img src="./static/assets/footer-icon1.png" alt="" />
-
                             </a>
                             <a href="">
                                 <img src="./static/assets/footer-icon2.png" alt="" />
@@ -278,6 +285,7 @@
                 </div>
             </div>
         </footer>
+        <!-- 底部结束 -->
     </div>
     <div class="video_wrapper" style="display: none;">
         <div class="video_modal">
